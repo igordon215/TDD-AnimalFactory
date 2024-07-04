@@ -18,8 +18,9 @@ public class DogTest {
 
 
 
-    
+
     ////////////////////////////////////////////////////////////
+    // TODO - Create tests for `void setName(String name)`
     @Test
     public void setNameTest() {
         // Given (a name exists and a dog exists)
@@ -35,7 +36,7 @@ public class DogTest {
     }
     // TODO - Create tests for `speak`
     @Test
-    public void dogSpeak() {
+    public void dogSpeakTest() {
         // Given ()
         Dog dog = new Dog(null, null, null);
 
@@ -47,7 +48,7 @@ public class DogTest {
     }
     // TODO - Create tests for `setBirthDate(Date birthDate)`
     @Test
-    public void setBirthDate() {
+    public void setBirthDateTest() {
         // Given ()
         Dog dog = new Dog(null, null, null);
         Date givenBirthDate = new Date();
